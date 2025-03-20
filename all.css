@@ -16,6 +16,10 @@
     padding-left: 1vh;
 }
 
+p{
+    margin-block-start: 0;
+}
+
 .mainp a {
     background-color: rgba(0, 0, 0, 0.63);
     padding: 1.1rem;
