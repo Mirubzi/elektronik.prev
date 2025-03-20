@@ -5,6 +5,7 @@ body {
     backdrop-filter: blur(10px) brightness(55%);
     margin: 0;
     height: 100%;
+    position: relative;
 }
 
 h1 {
