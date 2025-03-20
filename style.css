@@ -1,0 +1,102 @@
+body {
+    color: aliceblue;
+    background: red url(./img/tło\ głowne.webp) no-repeat center fixed;
+    background-size: cover;
+    backdrop-filter: blur(10px) brightness(55%);
+    -webkit-backdrop-filter: blur(10px) brightness(55%);
+    margin: 0;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+nav {
+    position: sticky;
+    width: 100%;
+    top: 0%;
+    padding-top: 1.5vh;
+}
+
+nav ol {
+    align-self: center;
+    justify-self: center;
+    list-style: none;
+    list-style-position: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: unset;
+    width: 70%;
+    flex-wrap: wrap;
+    background-color: rgba(102, 102, 102, 0.685);
+    padding: 1.5vh 3vh;
+    border-radius: 12px;
+    backdrop-filter: blur(9px) brightness(60%);
+
+    li {
+        text-align: center;
+        align-self: center;
+        flex: auto;
+        padding: 0;
+        margin: 0 0;
+    }
+
+}
+
+nav a {
+    color: rgb(221, 221, 221);
+    text-decoration: none;
+    display: block;
+    padding: 1.1rem;
+    background-color: rgba(0, 0, 0, 0.692);
+    border-radius: 25px;
+    margin: 0.6vw;
+    transition: 0.6s;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+nav a:hover {
+    color: rgb(255, 255, 255);
+    background-color: rgb(99, 99, 99);
+    transition: 0.6s;
+}
+
+@font-face {
+    font-family: Title;
+    src: url(./fonts/NightShiftRegular-KV8eZ.otf);
+}
+
+h1 {
+    font-family: Title;
+    font-weight: 600;
+    font-size: 5rem;
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+area {
+    background-color: aqua;
+}
+
+.dnav {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.map div {
+    margin-bottom: 4vw;
+}
+
+.Baner {
+    width: 75%;
+}
+
+.map {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
