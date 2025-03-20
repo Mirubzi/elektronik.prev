@@ -79,3 +79,46 @@ h4 {
     margin: 5px;
     padding-left: 10px;
 }
+
+figure.g{
+    margin: 5px;
+}
+
+figure.g img{
+    width: 100%;
+    height: auto;
+}
+
+figure.g.height{
+    width: 71.1%;
+}
+
+picture div{
+    flex-direction: row;
+    align-self: center;
+    justify-self: center;
+    list-style: none;
+    list-style-position: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-height: 70%;
+}
+
+picture{
+    display: flex;
+    flex-flow: row;
+    flex-direction: row;
+    align-self: center;
+    align-content: center;
+    justify-self: center;
+    align-items: center;
+    justify-content: center;
+    margin:2vh 0 ;
+    max-width: 60%;
+}
+
+div.col{
+    flex-direction: column;
+    display: flex;
+}
