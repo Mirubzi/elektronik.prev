@@ -1,11 +1,11 @@
-.mainps{
+.mainps {
     align-items: initial;
-    text-align:initial;
+    text-align: initial;
 }
 
-.mainpe{
+.mainpe {
     align-items: end;
-    text-align:end;
+    text-align: end;
 }
 
 .mainp a {
